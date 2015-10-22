@@ -16,7 +16,7 @@ ENV   GITHUB_REPO="" <br>
 ENV   HUBOT_JENKINS_URL="<jenkinsURL>" <br>
 ENV   HUBOT_JENKINS_AUTH="user:password" <br>
 
-## Run a basic hubot
+## build a basic image and then run the docker container
 
 ```Shell
 docker build -t hubot-hipchat .
