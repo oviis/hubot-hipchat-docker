@@ -8,13 +8,13 @@ By passing in the HUBOT_SCRIPTS_URL environment variable. The URL should point t
 
 ##  environment variables
 ## to do changes to the environemnt variable you should change them directly in the Dockerfile and then build a docker image
-ENV   HUBOT_HIPCHAT_JID=<hipchat_xamberID>@chat.hipchat.com
-ENV   HUBOT_HIPCHAT_PASSWORD=<hipchatPW>
-ENV   HUBOT_SCRIPTS_URL=
-ENV   HUBOT_PACKAGE_URL=
-ENV   GITHUB_REPO=""
-ENV   HUBOT_JENKINS_URL="<jenkinsURL>"
-ENV   HUBOT_JENKINS_AUTH="user:password"
+ENV   HUBOT_HIPCHAT_JID=<hipchat_xamberID>@chat.hipchat.com <br>
+ENV   HUBOT_HIPCHAT_PASSWORD=<hipchatPW> <br>
+ENV   HUBOT_SCRIPTS_URL= <br>
+ENV   HUBOT_PACKAGE_URL= <br>
+ENV   GITHUB_REPO="" <br>
+ENV   HUBOT_JENKINS_URL="<jenkinsURL>" <br>
+ENV   HUBOT_JENKINS_AUTH="user:password" <br>
 
 ## Run a basic hubot
 
