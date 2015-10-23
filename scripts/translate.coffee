@@ -89,14 +89,14 @@ module.exports = (robot) ->
     msg.http("https://translate.google.com/translate_a/t")
       .query({
         client: 't'
-        hl: 'en'
+        hl: 'de'
         multires: 1
         sc: 1
         sl: origin
         ssel: 0
         tl: target
         tsel: 0
-        uptl: "en"
+        uptl: "de"
         text: term
       })
       .header('User-Agent', 'Mozilla/5.0')
